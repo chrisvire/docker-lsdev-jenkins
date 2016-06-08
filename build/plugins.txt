@@ -9,6 +9,7 @@ git-client
 scm-api
 mailer
 matrix-project
+icon-shim
 ssh-credentials
 git
 gerrit-trigger
@@ -16,6 +17,9 @@ ansible
 token-macro
 groovy
 cloudbees-folder
+authentication-tokens
+structs
+mapdb-api
 
 #pre-installed - listed here so that they get updated
 ant
@@ -33,6 +37,9 @@ ssh-slaves
 subversion
 translation
 windows-slaves
+multiple-scms
+envinject
+throttle-concurrents
 
 # for ci-builder-scripts
 job-dsl
@@ -41,6 +48,7 @@ workflow-step-api
 PrioritySorter
 ghprb
 ssh-agent
+bouncycastle-api
 github-api
 plain-credentials
 parameterized-trigger
